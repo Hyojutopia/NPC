@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
+import './index.css';
 import reportWebVitals from './reportWebVitals';
+import AD from './user/ad';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <AD/>
+    <div className='middle'>
+      <BrowserRouter>
+        <App/>
+      </BrowserRouter>
+    </div>
+    <AD/>
   </React.StrictMode>
 );
 
