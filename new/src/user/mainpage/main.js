@@ -4,10 +4,10 @@ import './main.css';
 function Main(){
     return(
         <div>
-            <div className=''>
+            <div className='button'>
                 <Link to="/home">홈</Link>
             </div>
-            <div className=''>
+            <div className='button'>
             <Link to="/login">로그인</Link>
             </div>
         </div>

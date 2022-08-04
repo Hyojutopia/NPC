@@ -1,0 +1,9 @@
+.button{
+    height: 2vh;
+    width: 3vw;
+    background-color: lightgreen;
+    margin: 0.5vw 0.5vh;
+    padding: 00.5vh 0.5vw;
+    float: left;
+    text-align: center;
+}
