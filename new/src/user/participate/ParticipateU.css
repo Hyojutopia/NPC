@@ -1,0 +1,24 @@
+.textbox{
+    width: 50vw;
+    height: 60vh;
+    background-color: blanchedalmond;
+    padding: 3vh 3vw;
+    position: absolute;
+    top: 15vh;
+    left: 23vw;
+}
+
+textarea{
+    width: 40vw;
+    height: 40vh;
+    margin: 3vh 5vw;
+    font-size: 3vmin;
+}
+
+.submitbut{
+    width: 7vw;
+    height: 5vh;
+    position: relative;
+    left: 38.5vw;
+    font-size: 2.5vmin;
+}

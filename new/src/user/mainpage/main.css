@@ -1,19 +1,30 @@
-.but1{
-    height: 10vh;
-    width: 14vw;
-    margin: 1vh 1vw;
-    padding: auto;
-    float: left;
+.but{
     background-color: rgb(122, 185, 29);
     color: white;
     border: double black 0.2px;
     border-radius: 0.5vmin;
-    font-size: 4vmin;
 
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.but1{
+    height: 8vh;
+    width: 14vw;
+    margin: 2vh 1vw;
+    padding: auto;
+    float: left;
+    font-size: 4vmin;
+}
+
+.butt2{
+    height: 10vh;
+    width: 6vw;
+    float: left;
+    margin: 1vh 1vw;
+    font-size: 3vmin;
 }
 
 .blank{
@@ -39,6 +50,8 @@
 
 .code{
     position: absolute;
-    left: 22.5vw;
+    left: 25vw;
     top: 45vh;
+    width: 50vw;
+    height: 12vh;
 }

@@ -1,0 +1,43 @@
+.calander{
+    width: 20vw;
+    height: 30vh;
+    background-color: bisque;
+    margin: 7vh 3vw;
+}
+
+.questionbox{
+    width: 40vw;
+    height: 93vh;
+    margin-top: 7vh;
+    background-color: aquamarine;
+    float: left;
+}
+
+.questiondate{
+    text-align: center;
+    font-size: 5vmin;
+}
+
+.question{
+    width: 34vw;
+    height: 8vh;
+    margin: 2vh 2vw;
+    padding: 2vmin;
+    background-color: aqua;
+}
+
+.Qelsebox{
+    float: left;
+    width: 26vw;
+    height: 100vh;
+}
+
+.Qback{
+    position: absolute;
+    left: 17.5vw;
+    top: 90vh;
+
+    width: 20vw;
+    height: 5vh;
+    font-size: 2.5vmin;
+}
