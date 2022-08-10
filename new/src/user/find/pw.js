@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import AD from "../adver/ad";
 import './id.css';
 
-function FindIDU(){
+function FindPwU(){
     return(
         <div>
             <AD/>
@@ -13,11 +13,11 @@ function FindIDU(){
                         <input className='inputidpw'/>
                     </div>
                     <div className="infoid">
-                        <div className="name">이름</div>
+                        <div className="name">아이디</div>
                         <div className="name">이메일</div>
                     </div>
                 </div>
-                <Link to="/user/login"><div className='butidfind'>아이디 찾기</div></Link>
+                <Link to="/user/login"><div className='butidfind'>비밀번호 찾기</div></Link>
                 
             </div>
             <AD/>
@@ -25,4 +25,4 @@ function FindIDU(){
     );
 }
 
-export default FindIDU;
+export default FindPwU;

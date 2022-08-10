@@ -1,5 +1,5 @@
-.but{
-    height: 9vh;
+.but1{
+    height: 10vh;
     width: 14vw;
     margin: 1vh 1vw;
     padding: auto;
@@ -23,16 +23,18 @@
     margin: none;
 }
 
-.name{
+.mainname{
     color: black;
     font-size: 15vmin;
     text-align: center;
+    margin: 15vh;
 }
 
 .roomcode{
     width: 40vw;
     height: 10vh;
     float: left;
+    margin: 0.75vh 0vw;
 }
 
 .code{

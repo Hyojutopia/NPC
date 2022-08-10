@@ -1,0 +1,45 @@
+.butmenu{
+    background-color: rgb(122, 185, 29);
+    color: white;
+    border: double black 0.2px;
+    border-radius: 1vmin;
+    width: 25vw;
+    height: 9vh;
+    margin: 7vh 1vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3vmin;
+}
+
+.menubox{
+    width: 27vw;
+    position: absolute;
+    left: 36.5%;
+    top: 24%;
+}
+
+.delbox{
+    background-color: rgb(122, 185, 29);
+    color: white;
+    border-radius: 0.5vmin;
+    border: double black 0.2px;
+    width: 5vw;
+    height: 3vh;
+    margin: 1vh 0.5vw;
+
+    font-size: 2vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    position: absolute;
+    left: 80%;
+}
+
+a{
+    text-decoration: none;
+}

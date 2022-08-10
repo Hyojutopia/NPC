@@ -1,31 +1,12 @@
-.but2{
-    height: 5vh;
-    width: 10.32vw;
-    margin: 1vh 1vw;
-    padding: auto;
-    float: left;
-    background-color: rgb(122, 185, 29);
-    color: white;
-    border: double black 0.2px;
-    border-radius: 0.5vmin;
-    font-size: 2vmin;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.logbut{
-    height: 23vh;
+.name{
+    height: 10vh;
     width: 7vw;
-    margin: 1vh 1vw;
+    margin: 1vh 0.5vw;
     float: left;
     background-color: rgb(122, 185, 29);
     color: white;
     border: double black 0.2px;
     border-radius: 0.5vmin;
-
 
     display: flex;
     justify-content: center;
@@ -34,31 +15,28 @@
     font-size: 3vmin;
 }
 
-.box{
-    height: 25.5vh;
-    width: 37.2vw;
-    position: absolute;
-    left: 31.4%;
-    top: 33.75%;
-}
-
-.inputidpw{
-    height: 10vh;
-    width: 25vw;
-    margin: 1vh 1vw;
-    font-size: 5vmin;
-}
-
-.idpw{
-    height: 25.5vh;
-    width: 28vw;
+.infoid{
+    height: 23vh;
+    width: 7vw;
+    margin: 0.5vh 0.5vw;
     float: left;
 }
 
-.find{
-    width: 37.2vw;
-    height: 6vh;
+.butidfind{
+    background-color: rgb(122, 185, 29);
+    color: white;
+    border: double black 0.2px;
+    border-radius: 0.5vmin;
+    width: 35vw;
+    height: 5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3vmin;
+
     position: absolute;
-    left: 31.4%;
-    top: 59.25%;
+    left: 32.4%;
+    top: 60.25%;
 }

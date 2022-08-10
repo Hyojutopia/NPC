@@ -3,7 +3,7 @@ import AD from '../adver/ad';
 import './login.css';
 
 
-function LogIn(){
+function LogInU(){
     return(
         <div>
             <AD/>
@@ -11,16 +11,16 @@ function LogIn(){
                 <div>
                     <div className='box'>
                         <div className='idpw'>
-                            <input/>
-                            <input/>
+                            <input className='inputidpw'/>
+                            <input className='inputidpw'/>
                         </div>
-                        <Link to="/user/makeroom/"><div className='logbut'>로그인</div></Link>
+                        <Link to="/user/loginmenu/"><div className='logbut'>로그인</div></Link>
                     </div>
 
                     <div className='find'>
-                        <Link to="/user/findid/"><div className='but'>아이디 찾기</div></Link>
-                        <Link to="/user/findpw/"><div className='but'>비밀번호 찾기</div></Link>
-                        <Link to="/user/makeid/"><div className='but'>회원가입</div></Link>
+                        <Link to="/user/findid/"><div className='but2'>아이디 찾기</div></Link>
+                        <Link to="/user/findpw/"><div className='but2'>비밀번호 찾기</div></Link>
+                        <Link to="/user/makeid/"><div className='but2'>회원가입</div></Link>
                     </div>
                 </div>
             </div>
@@ -29,4 +29,4 @@ function LogIn(){
     );
 };
 
-export default LogIn;
+export default LogInU;
