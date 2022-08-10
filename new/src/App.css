@@ -1,10 +1,8 @@
 .middle{
-  width: 60vw;
+  width: 70vw;
   height: 100vh;
-  background-color: yellow;
   float: left;
 }
-
 
 .App {
   text-align: center;

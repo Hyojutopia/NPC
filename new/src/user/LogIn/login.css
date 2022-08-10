@@ -1,0 +1,62 @@
+.but{
+    height: 4vh;
+    width: 10.32vw;
+    margin: 1vh 1vw;
+    padding: auto;
+    float: left;
+    background-color: rgb(122, 185, 29);
+    color: white;
+    border: double black 0.2px;
+    border-radius: 0.5vmin;
+    font-size: 2vmin;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logbut{
+    height: 23vh;
+    width: 7vw;
+    margin: 1vh 1vw;
+    float: left;
+    background-color: rgb(122, 185, 29);
+    color: white;
+    border: double black 0.2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3vmin;
+}
+
+.box{
+    height: 25.5vh;
+    width: 37.2vw;
+    position: absolute;
+    left: 31.4%;
+    top: 34.25%;
+}
+
+input{
+    height: 10vh;
+    width: 25vw;
+    margin: 1vh 1vw;
+    font-size: 5vmin;
+}
+
+.idpw{
+    height: 25.5vh;
+    width: 28vw;
+    float: left;
+}
+
+.find{
+    width: 37.2vw;
+    height: 6vh;
+    position: absolute;
+    left: 31.4%;
+    top: 59.75%;
+}
