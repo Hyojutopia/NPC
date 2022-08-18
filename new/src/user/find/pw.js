@@ -7,6 +7,7 @@ function FindPwU(){
         <div>
             <AD/>
             <div className="middle">
+                <Link to="/user/home"><div className='mainname'>Why Talk</div></Link>
                 <div className='box'>
                     <div className='idpw'>
                         <input className='inputidpw'/>

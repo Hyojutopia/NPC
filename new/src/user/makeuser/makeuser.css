@@ -1,0 +1,45 @@
+.makeuserinfo{
+    width: 23vw;
+    height: 5vh;
+    font-size: 2vmin;
+    margin: 1vmax;
+}
+
+.makeuserbox{
+    margin-left: 1.5vmax;
+    margin-top: 0.5vmax;
+    margin-bottom: 1vmax;
+}
+
+.makeuserstyle{
+    width: 30vw;
+    height: 56vh;
+    background-color: rgba(32, 178, 144, 0.055);
+
+    border: 3px solid green;
+    border-radius: 5px;
+
+    position:absolute;
+    top: 22%;
+    left: 35%;
+
+    overflow: hidden;
+}
+
+.makeuserstyle:hover{
+    overflow-y: auto;
+}
+
+.makeusertitle{
+    text-align: center;
+    margin-top: 1vh;
+    font-size: 2.5vmax;
+}
+
+.makeuserbut{
+    text-align: center;
+    width: 23vw;
+    height: 4vh;
+    font-size: 2vmin;
+    margin-left: 2.7vmax;
+}

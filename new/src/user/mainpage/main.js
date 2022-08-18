@@ -8,7 +8,6 @@ function MainU(){
         <div>
             <AD/>
             <div className='middle'>
-                <Link to="/user/howtouse"><div className='but but1'>사용법</div></Link>
                 <div className='blank'></div>
                 <Link to="/user/login"><div className='but but1'>방생성</div></Link>
                 <Link to="/user/home"><div className='mainname'>Why Talk</div></Link>

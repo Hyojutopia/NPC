@@ -8,6 +8,7 @@ function LogInU(){
         <div>
             <AD/>
             <div className='middle'>
+                <Link to="/user/home"><div className='mainname'>Why Talk</div></Link>
                 <div>
                     <div className='box'>
                         <div className='idpw'>
