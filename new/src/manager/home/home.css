@@ -1,0 +1,36 @@
+.center{
+    position : absolute;
+    top:-20%;
+    left:45%;
+    
+}
+.logoutbox{
+    position : absolute;
+    left:90%;
+}
+.namelist {
+    background-color: white;
+    font-size: 40px;
+    width: 300px;
+    height: 90px;
+
+}
+.datelist{
+    background-color: white;
+    font-size: 40px;
+    width: 300px;
+    height: 90px;
+}
+.trash{
+    background-color: white;
+    font-size: 40px;
+    width: 300px;
+    height: 90px;
+}
+
+.logoutbutton{
+    background-color: white;
+    color: rgb(212, 66, 90);
+    border: none;
+    font-size: 18px;
+}

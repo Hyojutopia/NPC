@@ -1,0 +1,27 @@
+.center {
+    top: 40%;
+    left: 30%;
+}
+.id{
+    width: 400px;
+    height: 30px;
+
+}
+.pw{
+    width: 400px;
+    height: 30px;
+}
+label{
+    font-size: 20px;
+}
+
+
+.submit {
+    position : absolute;
+    top: 40%;
+    left: 80%;
+}
+.login {
+    font-size: 30px;
+    background-color: antiquewhite;
+}

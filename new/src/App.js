@@ -12,11 +12,22 @@ import ChooseU from './user/makeroom/choose';
 import RandomU from './user/makeroom/random';
 import QustionU from './user/pastQustion/QustionU';
 import ParticipateU from './user/participate/ParticipateU';
+import DateM from './manager/date/date';
+import NameM from './manager/name/name';
+import HomeM from './manager/home/home';
+import LoginM from './manager/login/login';
+import TrashM from './manager/trash/trash';
 
 function App() {
   return (
     <Routes>
       <Route path='/manager/main' element={<MainM/>}/>
+      <Route path='/manager/date' element={<DateM/>}/>
+      <Route path='/manager/name' element={<NameM/>}/>
+      <Route path='/manager/home' element={<HomeM/>}/>
+      <Route path='/manager/login' element={<LoginM/>}/>
+      <Route path='/manager/trash' element={<TrashM/>}/>
+
 
 
       <Route path="/user/home" element={<MainU />}/>
